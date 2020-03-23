@@ -1,13 +1,13 @@
 import React, {Component} from 'react';
 import ReactDOM from "react-dom";
 import ReactFullpage from '@fullpage/react-fullpage';
-import './main-page-section.css';
+import './main-wrapper.css';
 
-export class MainPageSection extends Component {
+export class MainWrapper extends Component {
   render() {
     return (
       <ReactFullpage
-        sectionsColor={["#ffffff", "#00c09d"]}
+        sectionsColor={["#ffffff", "#ffffff"]}
         render={
           (state, fullpageApi) => {
           return (
@@ -26,5 +26,5 @@ export class MainPageSection extends Component {
   }
 }
 
-ReactDOM.render(<MainPageSection />, document.getElementById("root"));
-export default MainPageSection;
+ReactDOM.render(<MainWrapper />, document.getElementById("root"));
+export default MainWrapper;

@@ -1,10 +1,10 @@
 import React from 'react';
 import './App.css';
-import MainPageSection from "./main-page-section/main-page-section";
+import MainWrapper from "./main-wrapper/main-wrapper";
 
 function App() {
   return (
-    <MainPageSection/>
+    <MainWrapper/>
   );
 }
 
