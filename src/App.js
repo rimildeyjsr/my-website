@@ -1,9 +1,10 @@
 import React from 'react';
 import './App.css';
+import MainPageSection from "./main-page-section/main-page-section";
 
 function App() {
   return (
-    <div></div>
+    <MainPageSection/>
   );
 }
 
