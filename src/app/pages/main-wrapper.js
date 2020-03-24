@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import ReactDOM from "react-dom";
 import ReactFullpage from '@fullpage/react-fullpage';
 import './main-wrapper.css';
+import FirstPage from "./FirstPage/first-page";
 
 export class MainWrapper extends Component {
   render() {
@@ -13,7 +14,7 @@ export class MainWrapper extends Component {
           return (
             <ReactFullpage.Wrapper>
               <div className="section">
-                <p>Section 1</p>
+                <FirstPage/>
               </div>
               <div className="section">
                 <p>Section 2</p>

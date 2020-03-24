@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import MainWrapper from "./main-wrapper/main-wrapper";
+import MainWrapper from "./pages/main-wrapper";
 
 function App() {
   return (
