@@ -1,0 +1,13 @@
+@mixin gradient-background ($angle, $left-color, $right-color) {
+  background: linear-gradient($angle, $left-color, $right-color);
+  background: -webkit-linear-gradient($angle, $left-color, $right-color);
+  background: -o-linear-gradient($angle, $left-color, $right-color);
+  background: -moz-linear-gradient($angle, $left-color, $right-color);
+  background: -ms-linear-gradient($angle, $left-color, $right-color);
+}
+
+@mixin flex-div-centered {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

@@ -1,0 +1,47 @@
+@import "../../library/colors";
+@import "../../library/mixins";
+
+.first-page-container {
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    @include gradient-background(120deg, $light-green-gradient, $light-blue-gradient);
+    @include flex-div-centered;
+}
+
+.intro-div {
+    width: 80%;
+    position: relative;
+    bottom: 50px;
+    @include flex-div-centered;
+}
+
+.intro-img {
+    height: 500px;
+    width: 500px;
+    object-fit: cover;
+}
+
+.intro-heading {
+    font-size: 65px;
+    background-color: $dark-blue;
+    color: white;
+    padding: 30px 120px 30px 50px;
+    margin: 0 0 0 -50px ;
+}
+
+.intro-sub-heading {
+    font-size: 25px;
+    background-color: white;
+    color: $dark-blue;
+    padding: 10px 20px;
+    margin: -31px 25px 0 20px;
+}
+
+.intro-background {
+    background-color: $dark-blue;
+    opacity: 0.08;
+    width: 90%;
+    height: 500px;
+    position: absolute;
+    top: 50px;
+}
