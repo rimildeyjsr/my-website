@@ -5,3 +5,49 @@
   height: 100vh;
   @include flex-div-centered;
 }
+
+.about-div {
+  width: 64%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  height: max-content;
+  padding-bottom: 30px;
+  background: $pink-background;
+}
+
+.about-heading-container {
+  margin-top: -3%;
+  padding: 5px 30px;
+  background-color: $dark-pink;
+  z-index: 5;
+}
+
+.about-heading {
+  font-size: 40px;
+  color: white;
+  margin: 0;
+}
+
+.about-content-container {
+  display: flex;
+  align-items: center;
+}
+
+.about-description {
+  font-family: 'Circular', sans-serif;
+  font-size: 24px;
+  color: $dark-blue;
+  margin-top: 30px;
+  padding: 0 35px;
+  text-align: justify;
+}
+
+.content-paragraph {
+  margin: 0 0 20px;
+}
+
+.about-section-image {
+  width: 400px;
+}

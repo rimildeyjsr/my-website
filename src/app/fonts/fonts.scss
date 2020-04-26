@@ -33,3 +33,27 @@
   src: url("Inter-Bold.woff2?v=3.13") format("woff2"),
        url("Inter-Bold.woff?v=3.13") format("woff");
 }
+
+@font-face {
+  font-family: 'Chivo';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("Chivo-Regular.ttf") format("ttf");
+}
+
+@font-face {
+  font-family: 'Chivo';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("Chivo-Bold.ttf");
+}
+
+@font-face {
+  font-family: 'Circular';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("CircularSpotifyText-Book.otf");
+}

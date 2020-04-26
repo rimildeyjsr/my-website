@@ -14,13 +14,13 @@
 }
 
 .intro-img {
-    height: 500px;
-    width: 500px;
+    height: 400px;
+    width: 400px;
     object-fit: cover;
 }
 
 .intro-heading {
-    font-size: 65px;
+    font-size: 50px;
     background-color: $dark-blue;
     color: white;
     padding: 30px 120px 30px 50px;
@@ -38,8 +38,8 @@
 .intro-background {
     background-color: $dark-blue;
     opacity: 0.08;
-    width: 90%;
-    height: 500px;
+    width: 80%;
+    height: 400px;
     position: absolute;
     top: 50px;
 }

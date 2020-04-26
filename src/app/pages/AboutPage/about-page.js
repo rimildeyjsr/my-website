@@ -1,11 +1,50 @@
 import React, {Component} from 'react';
+import aboutSectionImage from '../../assets/about-section.png';
 import "./about-page.scss";
 
 class AboutPage extends Component {
   render() {
     return (
       <div className="about-page-container" id="about-page">
-        <h1>About page</h1>
+        <div className="about-div">
+          <div className="about-heading-container">
+            <h1 className="about-heading">About</h1>
+          </div>
+
+          <div className="about-content-container">
+            <div className="about-description">
+              <p className="content-paragraph">
+                I work as a front-end web developer at Springboard,
+                where I implement new features on our platform and improve existing ones.
+                The instant visual feedback I received while making my first crude web-page
+                made me fall in love with building user interfaces, and I have been chasing
+                that high ever since.
+              </p>
+
+              <p className="content-paragraph">
+                In my free time, I read, bake, binge-watch my favourite TV series
+                and look after my plants. Someday, I hope to travel around the globe,
+                attend a Charlie Puth concert and watch Federer winning a match front-row
+                at Wimbledon.
+              </p>
+
+              {/*<p className="content-paragraph">*/}
+              {/*  Feel free to reach out if you want to discuss life as a Potter-head,*/}
+              {/*  Angular vs React, European monarchies, GRRM's writing speed,*/}
+              {/*  brownie recipes, and book to movie adaptations. I am always open to talk about*/}
+              {/*  other stuff if my pet topics are not your cup of tea!*/}
+              {/*</p>*/}
+            </div>
+
+            <div className="about-section-image-container">
+              <img
+                className="about-section-image"
+                src={aboutSectionImage}
+                alt="about section image"
+              />
+            </div>
+          </div>
+        </div>
       </div>
     );
   }
