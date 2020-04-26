@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6e14ba63fde0042bc5d23c80b1961c46",
+    "revision": "b49abc3ea260d9900d33dd570d91a567",
     "url": "/my-website/index.html"
   },
   {
-    "revision": "fae9de12b2d57ca056f1",
-    "url": "/my-website/static/css/main.2b38cf82.chunk.css"
+    "revision": "bed26cc26783172d026c",
+    "url": "/my-website/static/css/main.83937408.chunk.css"
   },
   {
     "revision": "a65cfc8a2e758d9de4b6",
@@ -16,12 +16,24 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/my-website/static/js/2.f2c3db9d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "fae9de12b2d57ca056f1",
-    "url": "/my-website/static/js/main.6ad0d9d1.chunk.js"
+    "revision": "bed26cc26783172d026c",
+    "url": "/my-website/static/js/main.b87b7ea7.chunk.js"
   },
   {
     "revision": "1afe37284f853fee8869",
     "url": "/my-website/static/js/runtime-main.51f3dcd3.js"
+  },
+  {
+    "revision": "44169c432f6bc9521bdd4074971376f7",
+    "url": "/my-website/static/media/Chivo-Bold.44169c43.ttf"
+  },
+  {
+    "revision": "dd17e112de5332c5ff867b8bce909fd0",
+    "url": "/my-website/static/media/Chivo-Regular.dd17e112.ttf"
+  },
+  {
+    "revision": "f504d0ea43d81ce1da05fd80945004c3",
+    "url": "/my-website/static/media/CircularSpotifyText-Book.f504d0ea.otf"
   },
   {
     "revision": "79260e5b693fac2ee373b659f01a2bdf",
