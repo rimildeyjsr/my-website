@@ -1,0 +1,8 @@
+@import "../../library/colors";
+@import "../../library/mixins";
+
+.projects-page-container {
+  height: 100vh;
+  font-family: 'Poppins', sans-serif;
+  @include flex-div-centered;
+}

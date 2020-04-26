@@ -1,0 +1,34 @@
+@import "../../library/colors";
+@import "../../library/mixins";
+
+.intro-page-gradient,
+.about-page-gradient,
+.projects-page-gradient {
+  opacity: 0;
+  z-index: -1;
+}
+
+.intro-page-gradient {
+  @include gradient-background(120deg, $intro-page-light-green-gradient, $intro-page-light-blue-gradient);
+}
+
+.about-page-gradient {
+  @include gradient-background(315deg, $about-page-light-pink-gradient, $intro-page-light-blue-gradient);
+}
+
+.projects-page-gradient {
+  @include gradient-background(315deg, #9890e3, #b1f4cf);
+}
+
+.gradient-bg {
+  position: fixed;
+  z-index: -2;
+  width: 100vw;
+  height: 100vh;
+  transition: opacity 1.5s cubic-bezier(.445,.05,.55,.95) 0s;
+}
+
+.active {
+  opacity: 1 !important;
+}
+

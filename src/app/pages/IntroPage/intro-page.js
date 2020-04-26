@@ -1,11 +1,11 @@
 import React, {Component} from 'react';
 import introPicture from '../../assets/rimil.jpg';
-import './first-page.scss';
+import './intro-page.scss';
 
-export class FirstPage extends Component {
+class IntroPage extends Component {
   render() {
     return (
-      <div className="first-page-container">
+      <div className="intro-page-container" id="intro-page">
         <div className="intro-div">
           <div className="intro-picture">
             <img
@@ -32,4 +32,4 @@ export class FirstPage extends Component {
   }
 }
 
-export default FirstPage;
+export default IntroPage;

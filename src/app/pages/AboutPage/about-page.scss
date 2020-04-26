@@ -1,0 +1,7 @@
+@import "../../library/colors";
+@import "../../library/mixins";
+
+.about-page-container {
+  height: 100vh;
+  @include flex-div-centered;
+}
