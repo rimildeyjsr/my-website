@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b49abc3ea260d9900d33dd570d91a567",
+    "revision": "701aeb70dd0f553a3fdbef86ee4e4c7d",
     "url": "/my-website/index.html"
   },
   {
-    "revision": "bed26cc26783172d026c",
-    "url": "/my-website/static/css/main.83937408.chunk.css"
+    "revision": "2de7b085e3638d4bcbe6",
+    "url": "/my-website/static/css/main.9608dd86.chunk.css"
   },
   {
-    "revision": "a65cfc8a2e758d9de4b6",
-    "url": "/my-website/static/js/2.f2c3db9d.chunk.js"
+    "revision": "5a791fe11830b37d3437",
+    "url": "/my-website/static/js/2.e19cfdbd.chunk.js"
   },
   {
     "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "/my-website/static/js/2.f2c3db9d.chunk.js.LICENSE.txt"
+    "url": "/my-website/static/js/2.e19cfdbd.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "bed26cc26783172d026c",
-    "url": "/my-website/static/js/main.b87b7ea7.chunk.js"
+    "revision": "2de7b085e3638d4bcbe6",
+    "url": "/my-website/static/js/main.a8e2b28f.chunk.js"
   },
   {
     "revision": "1afe37284f853fee8869",
@@ -66,6 +66,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "dd8a55ef7058cdaeb96ef9fc65344726",
     "url": "/my-website/static/media/Inter-SemiBold.dd8a55ef.woff2"
+  },
+  {
+    "revision": "e8efc265fe823d137f20c8b28c8cad55",
+    "url": "/my-website/static/media/about-section.e8efc265.png"
   },
   {
     "revision": "548ab9b0660148361039c42473dbe82e",
