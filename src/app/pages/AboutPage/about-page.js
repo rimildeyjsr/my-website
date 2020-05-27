@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import aboutSectionImage from '../../assets/about-section.png';
+import SectionHeading from '../../components/SectionHeading/section-heading';
 import "./about-page.scss";
 
 class AboutPage extends Component {
@@ -7,9 +8,11 @@ class AboutPage extends Component {
     return (
       <div className="about-page-container" id="about-page">
         <div className="about-div">
-          <div className="about-heading-container">
-            <h1 className="about-heading">About</h1>
-          </div>
+          <SectionHeading
+            sectionName="About"
+            backgroundColor="#a40e88"
+            textColor="white"
+          />
 
           <div className="about-content-container">
             <div className="about-description">
