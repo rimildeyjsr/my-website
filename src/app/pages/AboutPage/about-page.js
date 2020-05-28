@@ -30,13 +30,6 @@ class AboutPage extends Component {
                 attend a Charlie Puth concert and watch Federer winning a match front-row
                 at Wimbledon.
               </p>
-
-              {/*<p className="content-paragraph">*/}
-              {/*  Feel free to reach out if you want to discuss life as a Potter-head,*/}
-              {/*  Angular vs React, European monarchies, GRRM's writing speed,*/}
-              {/*  brownie recipes, and book to movie adaptations. I am always open to talk about*/}
-              {/*  other stuff if my pet topics are not your cup of tea!*/}
-              {/*</p>*/}
             </div>
 
             <div className="about-section-image-container">

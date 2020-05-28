@@ -1,0 +1,66 @@
+@import "../../library/colors";
+@import "../../library/mixins";
+
+.contact-page-container {
+  height: 100vh;
+  @include flex-div-centered;
+}
+
+.contact-div {
+  width: 64%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  height: max-content;
+  padding-bottom: 30px;
+  background: $pink-background;
+}
+
+.heading-container {
+  margin-top: -3%;
+}
+
+.contact-content-container {
+  font-family: 'Circular', sans-serif;
+  font-size: 24px;
+  color: $dark-blue;
+  margin-top: 30px;
+  padding: 0 35px;
+  text-align: justify;
+}
+
+.contact-button-container {
+  display: flex;
+  justify-content: center;
+}
+
+.pic-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.icon-button {
+  color: $less-dark-blue;
+  margin-right: 35px;
+}
+
+.mention-image-container {
+  .mention-image {
+    width: 235px;
+    height: auto;
+    object-fit: contain;
+  }
+}
+
+.button-container {
+  font-size: 50px;
+  font-family: Poppins, sans-serif;
+  cursor: pointer;
+
+  &:active, &:hover, &:focus {
+    outline: none;
+  }
+}
+

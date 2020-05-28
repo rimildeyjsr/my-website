@@ -3,6 +3,7 @@
 
 .projects-page-container {
   height: 100vh;
+  margin-top: 60px;
   font-family: 'Poppins', sans-serif;
   @include flex-div-centered;
   flex-direction: column;
@@ -49,7 +50,7 @@
   margin: -20px 20px 0 0px;
 }
 
-.project-link-text {
+.project-link-button {
   font-size: 16px;
   font-family: Poppins, sans-serif;
   font-weight: 600;

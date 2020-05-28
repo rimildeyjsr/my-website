@@ -17,6 +17,8 @@ class GradientWrapper extends Component {
         />
         <div className={"gradient-bg projects-page-gradient" + (this.props.activeGradientId === 'projectsPageGradient' ? ' active' : '')}
         />
+        <div className={"gradient-bg contact-page-gradient" + (this.props.activeGradientId === 'contactPageGradient' ? ' active' : '')}
+        />
       </div>
     );
   }

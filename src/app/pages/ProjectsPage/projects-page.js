@@ -98,7 +98,7 @@ class ProjectsPage extends Component {
                   <div className="project-background" />
 
                   <button
-                    className="project-link-text"
+                    className="project-link-button"
                     onClick={() => this.openLink(project.link)}
                   >
                     See Project

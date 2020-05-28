@@ -4,6 +4,7 @@ import IntroPage from "./IntroPage/intro-page";
 import AboutPage from "./AboutPage/about-page";
 import GradientWrapper from "../components/GradientWrapper/gradient-wrapper";
 import ProjectsPage from "./ProjectsPage/projects-page";
+import ContactPage from "./ContactSection/contact-page";
 
 class MainWrapper extends Component {
 
@@ -25,14 +26,17 @@ class MainWrapper extends Component {
   handleScroll = () => {
     let aboutPage = document.getElementById('about-page');
     let projectsPage = document.getElementById('projects-page');
+    let contactPage = document.getElementById('contact-page');
     let gradientId = '';
 
     if (window.scrollY < (aboutPage.offsetTop - 400)) {
       gradientId = 'introPageGradient';
     } else if (window.scrollY < (projectsPage.offsetTop - 400)) {
       gradientId = 'aboutPageGradient';
-    } else {
+    } else if (window.scrollY < (contactPage.offsetTop - 400)) {
       gradientId = 'projectsPageGradient';
+    } else {
+      gradientId = 'contactPageGradient';
     }
 
     this.setState({
@@ -49,6 +53,7 @@ class MainWrapper extends Component {
         <IntroPage/>
         <AboutPage/>
         <ProjectsPage/>
+        <ContactPage/>
       </div>
     )
   }

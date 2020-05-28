@@ -3,7 +3,8 @@
 
 .intro-page-gradient,
 .about-page-gradient,
-.projects-page-gradient {
+.projects-page-gradient,
+.contact-page-gradient {
   opacity: 0;
   z-index: -1;
 }
@@ -18,6 +19,10 @@
 
 .projects-page-gradient {
   @include gradient-background(60deg, $projects-page-light-green-gradient, $projects-page-light-yellow-gradient);
+}
+
+.contact-page-gradient {
+  @include gradient-background(18deg, $contact-page-light-blue-gradient, $contact-page-light-pink-gradient);
 }
 
 .gradient-bg {
