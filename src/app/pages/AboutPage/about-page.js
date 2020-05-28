@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import aboutSectionImage from '../../assets/about-section.png';
 import SectionHeading from '../../components/SectionHeading/section-heading';
-import "./about-page.scss";
+import './about-page.scss';
 
 class AboutPage extends Component {
   render() {

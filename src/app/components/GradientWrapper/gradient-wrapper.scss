@@ -17,7 +17,7 @@
 }
 
 .projects-page-gradient {
-  @include gradient-background(60deg, $projects-page-light-green-gradient, $projects-page-light-purple-gradient);
+  @include gradient-background(60deg, $projects-page-light-green-gradient, $projects-page-light-yellow-gradient);
 }
 
 .gradient-bg {

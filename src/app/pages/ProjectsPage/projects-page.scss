@@ -5,4 +5,114 @@
   height: 100vh;
   font-family: 'Poppins', sans-serif;
   @include flex-div-centered;
+  flex-direction: column;
+}
+
+.carousel-container {
+  margin-top: 50px;
+}
+
+.project-div {
+  width: 80%;
+  position: relative;
+  bottom: 50px;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  @include flex-div-centered;
+  flex-direction: column;
+}
+
+.project-details-container {
+  @include flex-div-centered;
+}
+
+.project-img {
+  height: 300px;
+  width: 300px;
+  object-fit: cover;
+}
+
+.project-heading {
+  font-size: 30px;
+  background-color: $dark-green;
+  color: white;
+  padding: 30px 60px 30px 30px;
+  margin: 55px 0 0 -30px ;
+}
+
+.project-sub-heading {
+  width: max-content;
+  font-size: 18px;
+  background-color: white;
+  color: $dark-green;
+  padding: 10px 20px;
+  margin: -20px 20px 0 20px;
+}
+
+.project-link-text {
+  font-size: 16px;
+  font-family: Poppins, sans-serif;
+  font-weight: 600;
+  color: white;
+  background-color: rgba(24, 138, 98, 0.8);
+  padding: 10px 20px;
+  margin: 25px 0;
+  text-align: center;
+  width: 150px;
+  border-radius: 3px;
+  border: none;
+  cursor: pointer;
+  transition: 0.25s ease-in-out;
+
+  &:hover {
+    transform: scale(1.1);
+    background-color: $dark-green;
+  }
+}
+
+.project-background {
+  background-color: $dark-green;
+  opacity: 0.11;
+  width: 80%;
+  height: 350px;
+  position: absolute;
+  top: 50px;
+  z-index: -1;
+}
+
+/* overriding styles for the carousel */
+.BrainhubCarousel__dots {
+  .BrainhubCarousel__dot {
+    background-color: transparent;
+    &:before {
+      background: $dark-green;
+    }
+  }
+}
+
+.BrainhubCarousel__arrows {
+  margin: 10px;
+  background-color: transparent;
+
+  span {
+    padding: 8px;
+    border-color: $dark-green;
+  }
+
+  &:hover {
+    background-color: transparent;
+
+    span {
+      padding: 8px;
+      border-color: $dark-green;
+    }
+
+    &:enabled {
+      background-color: transparent;
+
+      span {
+        border-color: $dark-green;
+      }
+    }
+  }
 }
