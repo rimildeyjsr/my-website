@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c836a3b7129f6ee6d5f9dcbdb76cb805",
+    "revision": "8d9ebbcc078854813582b3114529eee5",
     "url": "/my-website/index.html"
   },
   {
-    "revision": "f9dc777daaa5023fafc1",
-    "url": "/my-website/static/css/2.9e5c3921.chunk.css"
+    "revision": "eb8ff1e3a49d9531a461",
+    "url": "/my-website/static/css/2.6b5617b2.chunk.css"
   },
   {
-    "revision": "b9a864289a6c5bd657da",
-    "url": "/my-website/static/css/main.f1b16f8d.chunk.css"
+    "revision": "3d075892985c43b617be",
+    "url": "/my-website/static/css/main.ee5e7088.chunk.css"
   },
   {
-    "revision": "f9dc777daaa5023fafc1",
-    "url": "/my-website/static/js/2.2220e8aa.chunk.js"
+    "revision": "eb8ff1e3a49d9531a461",
+    "url": "/my-website/static/js/2.c5ca7640.chunk.js"
   },
   {
     "revision": "44eadc3c045b02392e4143dbbec91ff3",
-    "url": "/my-website/static/js/2.2220e8aa.chunk.js.LICENSE.txt"
+    "url": "/my-website/static/js/2.c5ca7640.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "b9a864289a6c5bd657da",
-    "url": "/my-website/static/js/main.2c1bfc7e.chunk.js"
+    "revision": "3d075892985c43b617be",
+    "url": "/my-website/static/js/main.8503c2a7.chunk.js"
   },
   {
     "revision": "1afe37284f853fee8869",
@@ -80,8 +80,72 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/my-website/static/media/admin-dash.246e39a9.png"
   },
   {
+    "revision": "0cb5a5c0d251c109458c85c6afeffbaa",
+    "url": "/my-website/static/media/fa-brands-400.0cb5a5c0.svg"
+  },
+  {
+    "revision": "13685372945d816a2b474fc082fd9aaa",
+    "url": "/my-website/static/media/fa-brands-400.13685372.ttf"
+  },
+  {
+    "revision": "a06da7f0950f9dd366fc9db9d56d618a",
+    "url": "/my-website/static/media/fa-brands-400.a06da7f0.woff2"
+  },
+  {
+    "revision": "c1868c9545d2de1cf8488f1dadd8c9d0",
+    "url": "/my-website/static/media/fa-brands-400.c1868c95.eot"
+  },
+  {
+    "revision": "ec3cfddedb8bebd2d7a3fdf511f7c1cc",
+    "url": "/my-website/static/media/fa-brands-400.ec3cfdde.woff"
+  },
+  {
+    "revision": "261d666b0147c6c5cda07265f98b8f8c",
+    "url": "/my-website/static/media/fa-regular-400.261d666b.eot"
+  },
+  {
+    "revision": "89ffa3aba80d30ee0a9371b25c968bbb",
+    "url": "/my-website/static/media/fa-regular-400.89ffa3ab.svg"
+  },
+  {
+    "revision": "c20b5b7362d8d7bb7eddf94344ace33e",
+    "url": "/my-website/static/media/fa-regular-400.c20b5b73.woff2"
+  },
+  {
+    "revision": "db78b9359171f24936b16d84f63af378",
+    "url": "/my-website/static/media/fa-regular-400.db78b935.ttf"
+  },
+  {
+    "revision": "f89ea91ecd1ca2db7e09baa2c4b156d1",
+    "url": "/my-website/static/media/fa-regular-400.f89ea91e.woff"
+  },
+  {
+    "revision": "1ab236ed440ee51810c56bd16628aef0",
+    "url": "/my-website/static/media/fa-solid-900.1ab236ed.ttf"
+  },
+  {
+    "revision": "a0369ea57eb6d3843d6474c035111f29",
+    "url": "/my-website/static/media/fa-solid-900.a0369ea5.eot"
+  },
+  {
+    "revision": "b15db15f746f29ffa02638cb455b8ec0",
+    "url": "/my-website/static/media/fa-solid-900.b15db15f.woff2"
+  },
+  {
+    "revision": "bea989e82b07e9687c26fc58a4805021",
+    "url": "/my-website/static/media/fa-solid-900.bea989e8.woff"
+  },
+  {
+    "revision": "ec763292e583294612f124c0b0def500",
+    "url": "/my-website/static/media/fa-solid-900.ec763292.svg"
+  },
+  {
     "revision": "9b7b6f0956d0967758e7614bbbd705f9",
     "url": "/my-website/static/media/hackertronix-website.9b7b6f09.png"
+  },
+  {
+    "revision": "69feb2077c2cd39a087b3682b78858b5",
+    "url": "/my-website/static/media/mention.69feb207.png"
   },
   {
     "revision": "2f49a6721c50e3cec8a17f67f0e028bc",
