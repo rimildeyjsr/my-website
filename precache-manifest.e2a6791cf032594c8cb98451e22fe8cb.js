@@ -1,23 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "701aeb70dd0f553a3fdbef86ee4e4c7d",
+    "revision": "c836a3b7129f6ee6d5f9dcbdb76cb805",
     "url": "/my-website/index.html"
   },
   {
-    "revision": "2de7b085e3638d4bcbe6",
-    "url": "/my-website/static/css/main.9608dd86.chunk.css"
+    "revision": "f9dc777daaa5023fafc1",
+    "url": "/my-website/static/css/2.9e5c3921.chunk.css"
   },
   {
-    "revision": "5a791fe11830b37d3437",
-    "url": "/my-website/static/js/2.e19cfdbd.chunk.js"
+    "revision": "b9a864289a6c5bd657da",
+    "url": "/my-website/static/css/main.f1b16f8d.chunk.css"
   },
   {
-    "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "/my-website/static/js/2.e19cfdbd.chunk.js.LICENSE.txt"
+    "revision": "f9dc777daaa5023fafc1",
+    "url": "/my-website/static/js/2.2220e8aa.chunk.js"
   },
   {
-    "revision": "2de7b085e3638d4bcbe6",
-    "url": "/my-website/static/js/main.a8e2b28f.chunk.js"
+    "revision": "44eadc3c045b02392e4143dbbec91ff3",
+    "url": "/my-website/static/js/2.2220e8aa.chunk.js.LICENSE.txt"
+  },
+  {
+    "revision": "b9a864289a6c5bd657da",
+    "url": "/my-website/static/js/main.2c1bfc7e.chunk.js"
   },
   {
     "revision": "1afe37284f853fee8869",
@@ -72,7 +76,31 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/my-website/static/media/about-section.e8efc265.png"
   },
   {
+    "revision": "246e39a91e30bcc7a99cc6e65d009ac9",
+    "url": "/my-website/static/media/admin-dash.246e39a9.png"
+  },
+  {
+    "revision": "9b7b6f0956d0967758e7614bbbd705f9",
+    "url": "/my-website/static/media/hackertronix-website.9b7b6f09.png"
+  },
+  {
+    "revision": "2f49a6721c50e3cec8a17f67f0e028bc",
+    "url": "/my-website/static/media/patterns.2f49a672.png"
+  },
+  {
     "revision": "548ab9b0660148361039c42473dbe82e",
     "url": "/my-website/static/media/rimil.548ab9b0.jpg"
+  },
+  {
+    "revision": "ce8505ed275c230221154e0868f0f469",
+    "url": "/my-website/static/media/st-anthonys-website.ce8505ed.png"
+  },
+  {
+    "revision": "13e277fd09424c09d6717f0365926588",
+    "url": "/my-website/static/media/tic-tac-toe.13e277fd.png"
+  },
+  {
+    "revision": "f50c222b3c133ca3d449a5d6baed72de",
+    "url": "/my-website/static/media/todo-website.f50c222b.png"
   }
 ]);
