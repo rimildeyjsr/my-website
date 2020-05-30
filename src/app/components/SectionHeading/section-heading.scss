@@ -7,3 +7,20 @@
   font-size: 40px;
   margin: 0;
 }
+
+@media screen and (max-width: 975px) {
+  .heading {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 775px) {
+  .heading {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+
+}
+

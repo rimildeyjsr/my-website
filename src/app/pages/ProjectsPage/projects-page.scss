@@ -74,7 +74,7 @@
 .project-background {
   background-color: $dark-green;
   opacity: 0.11;
-  width: 100%;
+  width: 1040px;
   height: 350px;
   position: absolute;
   top: 50px;
@@ -116,4 +116,27 @@
       }
     }
   }
+}
+
+@media screen and (max-width: 1125px) {
+  .project-img {
+    height: 235px;
+  }
+
+  .project-heading {
+    font-size: 18px;
+  }
+
+  .project-sub-heading {
+    font-size: 14px;
+  }
+
+  .project-background {
+    width: 750px;
+    height: 285px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+
 }

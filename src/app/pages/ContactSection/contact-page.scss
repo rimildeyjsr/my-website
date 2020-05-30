@@ -7,7 +7,7 @@
 }
 
 .contact-div {
-  width: 64%;
+  width: 930px;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -46,12 +46,10 @@
   margin-right: 35px;
 }
 
-.mention-image-container {
-  .mention-image {
-    width: 235px;
-    height: auto;
-    object-fit: contain;
-  }
+.mention-image {
+  width: 235px;
+  height: auto;
+  object-fit: contain;
 }
 
 .button-container {
@@ -61,6 +59,44 @@
 
   &:active, &:hover, &:focus {
     outline: none;
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  .contact-div {
+    width: 650px;
+  }
+
+  .contact-content-container {
+    font-size: 20px;
+  }
+
+  .mention-image {
+    width: 210px;
+  }
+
+  .button-container {
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 775px ){
+  .contact-content-container {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .contact-div {
+    width: 530px;
+  }
+
+  .mention-image {
+    width: 175px;
+  }
+
+  .button-container {
+    font-size: 35px;
   }
 }
 

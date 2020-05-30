@@ -7,7 +7,7 @@
 }
 
 .about-div {
-  width: 64%;
+  width: 930px;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -41,4 +41,36 @@
 
 .about-section-image {
   width: 400px;
+}
+
+@media screen and (max-width: 975px) {
+  .about-div {
+    width: 725px;
+  }
+
+  .about-description {
+    font-size: 20px;
+  }
+
+  .about-section-image {
+    width: 325px;
+  }
+}
+
+@media screen and (max-width: 775px) {
+  .about-div {
+    width: 585px;
+  }
+
+  .about-description {
+    font-size: 16px;
+  }
+
+  .about-section-image {
+    width: 270px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+
 }
