@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "cca7969dd195c90431961e5d49b35f0b",
+    "revision": "58a296022573a007444931e9598182c0",
     "url": "/my-website/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/my-website/static/css/2.6b5617b2.chunk.css"
   },
   {
-    "revision": "7a845c9074febc6c70b2",
-    "url": "/my-website/static/css/main.80ac31cd.chunk.css"
+    "revision": "674afd0f7d5afe52ff18",
+    "url": "/my-website/static/css/main.9a6bae88.chunk.css"
   },
   {
     "revision": "eb8ff1e3a49d9531a461",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/my-website/static/js/2.c5ca7640.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "7a845c9074febc6c70b2",
-    "url": "/my-website/static/js/main.8503c2a7.chunk.js"
+    "revision": "674afd0f7d5afe52ff18",
+    "url": "/my-website/static/js/main.42906318.chunk.js"
   },
   {
     "revision": "1afe37284f853fee8869",
@@ -72,12 +72,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/my-website/static/media/Inter-SemiBold.dd8a55ef.woff2"
   },
   {
-    "revision": "e8efc265fe823d137f20c8b28c8cad55",
-    "url": "/my-website/static/media/about-section.e8efc265.png"
+    "revision": "35ae22b844bb907e15c9c878763d2de7",
+    "url": "/my-website/static/media/about-section.35ae22b8.png"
   },
   {
-    "revision": "246e39a91e30bcc7a99cc6e65d009ac9",
-    "url": "/my-website/static/media/admin-dash.246e39a9.png"
+    "revision": "58fa3ce46a03c2aeab09b3f62c582c50",
+    "url": "/my-website/static/media/admin-dash.58fa3ce4.png"
   },
   {
     "revision": "0cb5a5c0d251c109458c85c6afeffbaa",
@@ -140,31 +140,31 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/my-website/static/media/fa-solid-900.ec763292.svg"
   },
   {
-    "revision": "9b7b6f0956d0967758e7614bbbd705f9",
-    "url": "/my-website/static/media/hackertronix-website.9b7b6f09.png"
+    "revision": "d842cf47b0fab19b6b28c6678921db7d",
+    "url": "/my-website/static/media/hackertronix-website.d842cf47.png"
   },
   {
-    "revision": "69feb2077c2cd39a087b3682b78858b5",
-    "url": "/my-website/static/media/mention.69feb207.png"
+    "revision": "2432d864f30c7d2cb08fa6075059d723",
+    "url": "/my-website/static/media/mention.2432d864.png"
   },
   {
-    "revision": "2f49a6721c50e3cec8a17f67f0e028bc",
-    "url": "/my-website/static/media/patterns.2f49a672.png"
+    "revision": "cbeaf03642f6e6a9a819531b5cb81705",
+    "url": "/my-website/static/media/patterns.cbeaf036.png"
   },
   {
-    "revision": "548ab9b0660148361039c42473dbe82e",
-    "url": "/my-website/static/media/rimil.548ab9b0.jpg"
+    "revision": "51f992c5f1870c7580967546a2636314",
+    "url": "/my-website/static/media/rimil.51f992c5.jpg"
   },
   {
-    "revision": "ce8505ed275c230221154e0868f0f469",
-    "url": "/my-website/static/media/st-anthonys-website.ce8505ed.png"
+    "revision": "5c777e8d63e958f5c11a93b536911901",
+    "url": "/my-website/static/media/st-anthonys-website.5c777e8d.png"
   },
   {
-    "revision": "13e277fd09424c09d6717f0365926588",
-    "url": "/my-website/static/media/tic-tac-toe.13e277fd.png"
+    "revision": "e82d03988d9e50922c6eb296f4fe383d",
+    "url": "/my-website/static/media/tic-tac-toe.e82d0398.png"
   },
   {
-    "revision": "f50c222b3c133ca3d449a5d6baed72de",
-    "url": "/my-website/static/media/todo-website.f50c222b.png"
+    "revision": "de99952b2d52605f093097ec29a6248d",
+    "url": "/my-website/static/media/todo-website.de99952b.png"
   }
 ]);
