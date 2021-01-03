@@ -37,7 +37,7 @@ class ContactPage extends Component {
 
   render() {
     return (
-      <div className="contact-page-container" id="contact-page">
+      <section className="contact-page-container" id="contact-page">
         <div className="contact-div">
           <SectionHeading
             sectionName="Contact"
@@ -80,7 +80,7 @@ class ContactPage extends Component {
             </div>
           </div>
         </div>
-      </div>
+      </section>
     )
   }
 }

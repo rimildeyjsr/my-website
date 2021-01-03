@@ -82,12 +82,43 @@
     }
 
     .intro-background {
-        width: 600px;
+        width: 100%;
         height: 260px;
         top: 25px;
     }
 }
 
 @media screen and (max-width: 655px) {
+    .intro-div {
+        flex-direction: column;
+    }
+
+    .intro-text {
+        margin-top: -25px;
+    }
+
+    .intro-heading {
+        width: 200px;
+        margin: 0;
+    }
+}
+
+
+@media screen and (max-width: 500px) {
+    .intro-heading {
+        font-size: 20px;
+        padding: 30px 35px;
+        width: auto;
+        margin: 0;
+    }
+
+    .intro-img {
+        height: 180px;
+        width: 180px;
+    }
+
+    .intro-sub-heading {
+        font-size: 12px;
+    }
 
 }

@@ -5,7 +5,7 @@ import './intro-page.scss';
 class IntroPage extends Component {
   render() {
     return (
-      <div className="intro-page-container" id="intro-page">
+      <section className="intro-page-container" id="intro-page">
         <div className="intro-div">
           <div className="intro-picture">
             <img
@@ -27,7 +27,7 @@ class IntroPage extends Component {
 
           <div className="intro-background" />
         </div>
-      </div>
+      </section>
     );
   }
 }

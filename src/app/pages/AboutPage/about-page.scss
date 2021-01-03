@@ -72,5 +72,36 @@
 }
 
 @media screen and (max-width: 640px) {
+  .about-div {
+    width: 80%;
+  }
 
+  .about-content-container {
+    flex-direction: column;
+  }
+
+  .about-section-image {
+    display: none;
+  }
+
+  .about-description {
+    font-size: 14px;
+  }
+
+}
+
+@media screen and (max-width: 550px) {
+  .heading-container {
+    margin-top: -6%;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .about-section-image {
+    width: 250px;
+  }
+
+  .about-description {
+    font-size: 14px;
+  }
 }

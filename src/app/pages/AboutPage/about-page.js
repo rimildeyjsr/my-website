@@ -6,7 +6,7 @@ import './about-page.scss';
 class AboutPage extends Component {
   render() {
     return (
-      <div className="about-page-container" id="about-page">
+      <section className="about-page-container" id="about-page">
         <div className="about-div">
           <SectionHeading
             sectionName="About"
@@ -41,7 +41,7 @@ class AboutPage extends Component {
             </div>
           </div>
         </div>
-      </div>
+      </section>
     );
   }
 }

@@ -13,7 +13,7 @@ import patternsPicture from '../../assets/patterns.png';
 class ProjectsPage extends Component {
   projectList = [
     {
-      name: 'Patterns - Swift playground app',
+      name: 'Patterns - Playground app',
       image: patternsPicture,
       techStack: 'Swift',
       link: 'https://github.com/rimildeyjsr/patterns',
@@ -62,7 +62,7 @@ class ProjectsPage extends Component {
 
   render() {
     return (
-      <div className="projects-page-container" id="projects-page">
+      <section className="projects-page-container" id="projects-page">
         <SectionHeading
           sectionName="Projects"
           backgroundColor="#188a62"
@@ -114,7 +114,7 @@ class ProjectsPage extends Component {
             })
           }
         </Carousel>
-      </div>
+      </section>
     );
   }
 }
