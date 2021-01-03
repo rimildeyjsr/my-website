@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import ReactFullpage from "@fullpage/react-fullpage";
 import './main-wrapper.scss';
 import IntroPage from "./IntroPage/intro-page";
 import AboutPage from "./AboutPage/about-page";
@@ -8,6 +9,7 @@ import ContactPage from "./ContactSection/contact-page";
 
 class MainWrapper extends Component {
 
+  pageIndexMap = ['introPageGradient', 'aboutPageGradient', 'projectsPageGradient', 'contactPageGradient'];
   constructor(props) {
     super(props);
     this.state = {
@@ -15,45 +17,39 @@ class MainWrapper extends Component {
     };
   }
 
-  componentDidMount() {
-    window.addEventListener('scroll', this.handleScroll);
-  }
-
-  componentWillUnmount() {
-    window.removeEventListener('scroll', this.handleScroll);
-  }
-
-  handleScroll = () => {
-    let aboutPage = document.getElementById('about-page');
-    let projectsPage = document.getElementById('projects-page');
-    let contactPage = document.getElementById('contact-page');
-    let gradientId = '';
-
-    if (window.scrollY < (aboutPage.offsetTop - 400)) {
-      gradientId = 'introPageGradient';
-    } else if (window.scrollY < (projectsPage.offsetTop - 400)) {
-      gradientId = 'aboutPageGradient';
-    } else if (window.scrollY < (contactPage.offsetTop - 400)) {
-      gradientId = 'projectsPageGradient';
-    } else {
-      gradientId = 'contactPageGradient';
-    }
-
-    this.setState({
-      activeGradientId: gradientId,
-    });
-  };
-
   render() {
     return (
       <div className="main-wrapper-container">
         <GradientWrapper
           activeGradientId={this.state.activeGradientId}
         />
-        <IntroPage/>
-        <AboutPage/>
-        <ProjectsPage/>
-        <ContactPage/>
+        <ReactFullpage
+          onLeave={(origin, destination, direction) => {
+            this.setState({
+              activeGradientId: this.pageIndexMap[destination.index]
+            });
+          }}
+          render={
+            () => {
+              return (
+                <ReactFullpage.Wrapper>
+                  <div className="section">
+                    <IntroPage/>
+                  </div>
+                  <div className="section">
+                <AboutPage/>
+                  </div>
+                  <div className="section">
+                    <ProjectsPage/>
+                  </div>
+                  <div className="section">
+                    <ContactPage/>
+                  </div>
+                </ReactFullpage.Wrapper>
+              )
+            }
+          }
+        />
       </div>
     )
   }

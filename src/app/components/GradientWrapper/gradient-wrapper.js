@@ -2,10 +2,6 @@ import React, {Component} from 'react';
 import './gradient-wrapper.scss';
 
 class GradientWrapper extends Component {
-  constructor(props) {
-    super(props);
-  }
-
   render() {
     return (
       <div>
