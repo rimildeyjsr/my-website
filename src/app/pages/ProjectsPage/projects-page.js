@@ -17,36 +17,42 @@ class ProjectsPage extends Component {
       image: patternsPicture,
       techStack: 'Swift',
       link: 'https://github.com/rimildeyjsr/patterns',
+      key: 1,
     },
     {
       name: 'St. Anthony School\'s Website',
       image: stAnthonyPicture,
       techStack: 'HTML, CSS, Javascript, Jquery',
       link: 'http://stanthonysdoranda.org/',
+      key: 2,
     },
     {
       name: 'Prateek\'s Portfolio Website',
       image: prateekPicture,
       techStack: 'HTML, CSS, Javascript, Jquery',
       link: 'https://hackertronix.com/',
+      key: 3,
     },
     {
       name: 'To-Do App',
       image: toDoPicture,
       techStack: 'React',
       link: 'https://rimildeyjsr.github.io/todo/',
+      key: 4,
     },
     {
       name: 'Tic-tac-toe Game',
       image: ticTacToePicture,
       techStack: 'Angular',
       link: 'https://rimildeyjsr.github.io/tic-tac-toe/',
+      key: 6,
     },
     {
       name: 'Admin Dashboard',
       image: adminDashboardPicture,
       techStack: 'React, Firebase',
       link: 'https://github.com/rimildeyjsr/admin-dashboard',
+      key: 7
     },
   ];
 
@@ -74,7 +80,7 @@ class ProjectsPage extends Component {
           {
             this.projectList.map((project) => {
               return (
-                <div className="project-div">
+                <div className="project-div" key={project.key}>
                   <div className="project-details-container">
                     <div className="project-picture">
                       <img

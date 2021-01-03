@@ -9,21 +9,25 @@ class ContactPage extends Component {
       name: 'Github',
       iconImage: 'fab fa-github icon-button',
       link: 'https://github.com/rimildeyjsr',
+      key: 1,
     },
     {
       name: 'Twitter',
       iconImage: 'fab fa-twitter icon-button',
       link: 'https://twitter.com/rimildeyjsr',
+      key: 2,
     },
     {
       name: 'LinkedIn',
       iconImage: 'fab fa-linkedin icon-button',
       link: 'https://www.linkedin.com/in/rimildeyjsr/',
+      key: 3,
     },
     {
       name: 'Mail',
       iconImage: 'fas fa-at icon-button',
       link: 'mailto:rimildeyjsr@gmail.com',
+      key: 4,
     },
   ];
 
@@ -65,6 +69,7 @@ class ContactPage extends Component {
                       <div
                         className="button-container"
                         onClick={() => this.openLink(button.link)}
+                        key={button.key}
                       >
                         <i className={button.iconImage} />
                       </div>

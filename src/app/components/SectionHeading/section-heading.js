@@ -5,7 +5,7 @@ export default function SectionHeading(props) {
   return (
     <div
       className="heading-container"
-      style={{'background-color': props.backgroundColor}}
+      style={{backgroundColor: props.backgroundColor}}
     >
       <h1
         className="heading"
