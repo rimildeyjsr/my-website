@@ -17,8 +17,7 @@ class AboutPage extends Component {
           <div className="about-content-container">
             <div className="about-description">
               <p className="content-paragraph">
-                I work as a front-end web developer at Springboard,
-                where I implement new features on our platform and improve existing ones.
+                I work as a front-end engineer at Rippling, where I work on the Devices management team.
                 The instant visual feedback I received while making my first crude web-page
                 made me fall in love with building user interfaces, and I have been chasing
                 that high ever since.
