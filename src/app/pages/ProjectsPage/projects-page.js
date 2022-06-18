@@ -65,7 +65,7 @@ class ProjectsPage extends Component {
       <section className="projects-page-container" id="projects-page">
         <SectionHeading
           sectionName="Projects"
-          backgroundColor="#188a62"
+          backgroundColor="#1e3264"
           textColor="white"
         />
 

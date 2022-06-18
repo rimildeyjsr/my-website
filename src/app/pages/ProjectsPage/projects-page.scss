@@ -35,7 +35,7 @@
 
 .project-heading {
   font-size: 30px;
-  background-color: $dark-green;
+  background-color: $dark-blue;
   color: white;
   padding: 30px 60px 30px 30px;
   margin: 55px 0 0 -100px ;
@@ -45,7 +45,7 @@
   width: max-content;
   font-size: 18px;
   background-color: white;
-  color: $dark-green;
+  color: $dark-blue;
   padding: 10px 20px;
   margin: -20px 20px 0 0px;
 }
@@ -55,7 +55,7 @@
   font-family: Poppins, sans-serif;
   font-weight: 600;
   color: white;
-  background-color: rgba(24, 138, 98, 0.8);
+  background-color: rgba(30, 50, 100, 0.7);
   padding: 10px 20px;
   margin: 25px 0;
   text-align: center;
@@ -67,12 +67,12 @@
 
   &:hover {
     transform: scale(1.1);
-    background-color: $dark-green;
+    background-color: $dark-blue;
   }
 }
 
 .project-background {
-  background-color: $dark-green;
+  background-color: $dark-blue;
   opacity: 0.11;
   width: 1040px;
   height: 350px;
@@ -86,7 +86,7 @@
   .BrainhubCarousel__dot {
     background-color: transparent;
     &:before {
-      background: $dark-green;
+      background: $dark-blue;
     }
   }
 }
@@ -96,7 +96,7 @@
 
   span {
     padding: 8px;
-    border-color: $dark-green;
+    border-color: $dark-blue;
   }
 
   &:hover {
@@ -104,14 +104,14 @@
 
     span {
       padding: 8px;
-      border-color: $dark-green;
+      border-color: $dark-blue;
     }
 
     &:enabled {
       background-color: transparent;
 
       span {
-        border-color: $dark-green;
+        border-color: $dark-blue;
       }
     }
   }
