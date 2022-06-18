@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b59e12bf5983d59791d347f2d590e54a",
+    "revision": "87bac39a8b2f7cdac36f4620ca89efc5",
     "url": "/my-website/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/my-website/static/css/2.a01c9f3a.chunk.css"
   },
   {
-    "revision": "a09ee2abfecfa7e8a346",
-    "url": "/my-website/static/css/main.521945ce.chunk.css"
+    "revision": "dcfe6b726cfd99a47db3",
+    "url": "/my-website/static/css/main.65793a97.chunk.css"
   },
   {
     "revision": "95a9157d9e833a09e8d7",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/my-website/static/js/2.98ef8e26.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a09ee2abfecfa7e8a346",
-    "url": "/my-website/static/js/main.46316319.chunk.js"
+    "revision": "dcfe6b726cfd99a47db3",
+    "url": "/my-website/static/js/main.59864eda.chunk.js"
   },
   {
     "revision": "1afe37284f853fee8869",
@@ -72,12 +72,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/my-website/static/media/Inter-SemiBold.dd8a55ef.woff2"
   },
   {
-    "revision": "35ae22b844bb907e15c9c878763d2de7",
-    "url": "/my-website/static/media/about-section.35ae22b8.png"
+    "revision": "1fa6b75aa9211d4828e15cdb100faac5",
+    "url": "/my-website/static/media/about-section.1fa6b75a.png"
   },
   {
-    "revision": "58fa3ce46a03c2aeab09b3f62c582c50",
-    "url": "/my-website/static/media/admin-dash.58fa3ce4.png"
+    "revision": "b61695b6a44d61021bc588f4b632a203",
+    "url": "/my-website/static/media/admin-dash.b61695b6.png"
   },
   {
     "revision": "0cb5a5c0d251c109458c85c6afeffbaa",
@@ -144,16 +144,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/my-website/static/media/hackertronix-website.d842cf47.png"
   },
   {
-    "revision": "2432d864f30c7d2cb08fa6075059d723",
-    "url": "/my-website/static/media/mention.2432d864.png"
+    "revision": "e37071402a0622a78d7f9a63ffbd7cbf",
+    "url": "/my-website/static/media/mention.e3707140.png"
   },
   {
     "revision": "cbeaf03642f6e6a9a819531b5cb81705",
     "url": "/my-website/static/media/patterns.cbeaf036.png"
   },
   {
-    "revision": "51f992c5f1870c7580967546a2636314",
-    "url": "/my-website/static/media/rimil.51f992c5.jpg"
+    "revision": "a84a788188416d244c4f69d439acc259",
+    "url": "/my-website/static/media/rimil.a84a7881.jpg"
   },
   {
     "revision": "5c777e8d63e958f5c11a93b536911901",
