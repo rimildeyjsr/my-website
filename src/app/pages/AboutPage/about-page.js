@@ -17,7 +17,7 @@ class AboutPage extends Component {
           <div className="about-content-container">
             <div className="about-description">
               <p className="content-paragraph">
-                I work as a front-end engineer at Appsmith, on the FE coders pod.
+                I work as a front-end engineer at Paradime Labs.
                 The instant visual feedback I received while making my first crude web-page
                 made me fall in love with building user interfaces, and I have been chasing
                 that high ever since.
